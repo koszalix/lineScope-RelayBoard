@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "25d219df-5a29-4a0e-a848-d0fb6e698e36")
 	(paper "A4")
+	(title_block
+		(title "lineScope Relay Board")
+		(date "2024-03-21")
+		(rev "1.0.0")
+		(company "Koszalix")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -650,6 +656,360 @@
 				)
 			)
 		)
+		(symbol "Koszalix_Relays:RM85-1011-35-1012_Socket"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 8.89 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EC50"
+				(at 21.844 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Koszalix_Relays:RM85_Socket"
+				(at 21.844 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.relpol.pl/Produkty/Gniazda-i-akcesoria/Gniazda-do-przekaznikow-miniaturowych/content/download/60076/973976/file/Gniazda"
+				(at 21.844 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "RM85 relay; 12V Coil; with socket"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN1" "EC50"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Relpol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RM85-1011-35-1012"
+				(at 21.844 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN2" "RM85-1011-35-1012"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RM85-1011-35-1012_Socket_0_0"
+				(text ""
+					(at 0 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text ""
+					(at 0 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text ""
+					(at 0 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text ""
+					(at 0 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text ""
+					(at 1.27 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text ""
+					(at 1.27 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "RM85-1011-35-1012_Socket_1_1"
+				(rectangle
+					(start -3.175 -2.54)
+					(end 3.175 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -6.35) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RM85-1011-35-1012_Socket_2_1"
+				(polyline
+					(pts
+						(xy 2.54 -10.16) (xy 4.445 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08) (xy 0.635 -4.445) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08) (xy 4.445 -4.445) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 270)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Koszalix_Shottky_Diodes:LL103A"
 			(pin_numbers hide)
 			(pin_names
@@ -693,7 +1053,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Schotky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -789,6 +1149,15 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -1077,58 +1446,58 @@
 		)
 	)
 	(junction
-		(at 141.605 80.645)
+		(at 189.23 99.695)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fefcff9-7588-4f8f-8339-5d6c9a252a53")
 	)
 	(junction
-		(at 125.73 80.645)
+		(at 173.355 99.695)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a4cdeb5-c001-47c6-8031-38a050a6d12e")
 	)
 	(junction
-		(at 125.73 88.265)
+		(at 173.355 107.315)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "462de675-7dd9-4322-837a-bf40cb5177ef")
 	)
 	(junction
-		(at 125.73 100.965)
+		(at 173.355 120.015)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6446d25d-04ff-4acd-86f3-e41905269f2b")
 	)
 	(junction
-		(at 125.73 60.325)
+		(at 173.355 79.375)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76ab1a14-1d43-4c77-a2e0-9a4bf5b77413")
 	)
 	(junction
-		(at 125.73 47.625)
+		(at 173.355 66.675)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba92603a-53dc-4bb0-96c7-6a6624654adf")
 	)
 	(junction
-		(at 125.73 67.945)
+		(at 173.355 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ced86a07-e50b-43af-9c09-335025f32500")
 	)
 	(no_connect
-		(at 66.04 50.165)
+		(at 113.665 69.215)
 		(uuid "740ebd7e-9765-4b39-89e7-ba412f2e3d20")
 	)
 	(no_connect
-		(at 66.04 70.485)
+		(at 113.665 89.535)
 		(uuid "f0c4038a-93b5-4143-ad4c-e529711010b1")
 	)
 	(wire
 		(pts
-			(xy 125.73 88.265) (xy 125.73 90.805)
+			(xy 173.355 107.315) (xy 173.355 109.855)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1507,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 93.98 100.965)
+			(xy 141.605 118.11) (xy 141.605 120.015)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +1517,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 88.265) (xy 125.73 88.265)
+			(xy 141.605 107.315) (xy 173.355 107.315)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 88.265) (xy 125.73 88.265)
+			(xy 186.69 107.315) (xy 173.355 107.315)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1537,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 73.025) (xy 78.74 73.025)
+			(xy 128.905 92.075) (xy 126.365 92.075)
 		)
 		(stroke
 			(width 0)
@@ -1178,7 +1547,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 95.885) (xy 66.04 95.885)
+			(xy 95.25 114.935) (xy 113.665 114.935)
 		)
 		(stroke
 			(width 0)
@@ -1188,7 +1557,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 90.805) (xy 66.04 90.805)
+			(xy 95.25 109.855) (xy 113.665 109.855)
 		)
 		(stroke
 			(width 0)
@@ -1198,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 90.17) (xy 93.98 88.265)
+			(xy 141.605 109.22) (xy 141.605 107.315)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +1577,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 69.85) (xy 93.98 67.945)
+			(xy 141.605 88.9) (xy 141.605 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1218,7 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 60.325) (xy 81.28 60.325)
+			(xy 95.25 79.375) (xy 128.905 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1228,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 100.965) (xy 125.73 100.965)
+			(xy 189.23 120.015) (xy 173.355 120.015)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +1607,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 52.705) (xy 78.74 52.705)
+			(xy 128.905 71.755) (xy 126.365 71.755)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1617,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 78.74) (xy 93.98 80.645)
+			(xy 141.605 97.79) (xy 141.605 99.695)
 		)
 		(stroke
 			(width 0)
@@ -1258,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 58.42) (xy 93.98 60.325)
+			(xy 141.605 77.47) (xy 141.605 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 80.645) (xy 141.605 80.645)
+			(xy 173.355 99.695) (xy 189.23 99.695)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 80.645) (xy 125.73 78.105)
+			(xy 173.355 99.695) (xy 173.355 97.155)
 		)
 		(stroke
 			(width 0)
@@ -1288,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 100.965) (xy 125.73 98.425)
+			(xy 173.355 120.015) (xy 173.355 117.475)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +1667,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 78.105) (xy 139.065 78.105)
+			(xy 191.135 97.155) (xy 186.69 97.155)
 		)
 		(stroke
 			(width 0)
@@ -1308,7 +1677,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 47.625) (xy 125.73 50.165)
+			(xy 173.355 66.675) (xy 173.355 69.215)
 		)
 		(stroke
 			(width 0)
@@ -1318,7 +1687,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 60.325) (xy 81.28 52.705)
+			(xy 128.905 79.375) (xy 128.905 71.755)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1697,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 47.625) (xy 137.16 47.625)
+			(xy 173.355 66.675) (xy 184.785 66.675)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +1707,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 78.105) (xy 139.065 67.945)
+			(xy 186.69 97.155) (xy 186.69 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +1717,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 49.53) (xy 93.98 47.625)
+			(xy 141.605 68.58) (xy 141.605 66.675)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1727,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 52.07) (xy 137.16 52.07)
+			(xy 190.5 71.12) (xy 184.785 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1737,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 80.645) (xy 141.605 100.965)
+			(xy 189.23 99.695) (xy 189.23 120.015)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 54.61) (xy 137.16 60.325)
+			(xy 184.785 73.66) (xy 184.785 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 47.625) (xy 125.73 47.625)
+			(xy 141.605 66.675) (xy 173.355 66.675)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 60.325) (xy 125.73 60.325)
+			(xy 184.785 79.375) (xy 173.355 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1408,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 67.945) (xy 125.73 70.485)
+			(xy 173.355 86.995) (xy 173.355 89.535)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +1787,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 60.325) (xy 125.73 60.325)
+			(xy 141.605 79.375) (xy 173.355 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1428,7 +1797,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 83.185) (xy 139.065 88.265)
+			(xy 186.69 102.235) (xy 186.69 107.315)
 		)
 		(stroke
 			(width 0)
@@ -1438,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 54.61) (xy 137.16 54.61)
+			(xy 190.5 73.66) (xy 184.785 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 55.245) (xy 66.04 55.245)
+			(xy 95.25 74.295) (xy 113.665 74.295)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 80.645) (xy 125.73 80.645)
+			(xy 141.605 99.695) (xy 173.355 99.695)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1837,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 83.185) (xy 139.065 83.185)
+			(xy 191.135 102.235) (xy 186.69 102.235)
 		)
 		(stroke
 			(width 0)
@@ -1478,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 80.645) (xy 143.51 80.645)
+			(xy 189.23 99.695) (xy 191.135 99.695)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 100.965) (xy 125.73 100.965)
+			(xy 141.605 120.015) (xy 173.355 120.015)
 		)
 		(stroke
 			(width 0)
@@ -1498,7 +1867,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 52.07) (xy 137.16 47.625)
+			(xy 184.785 71.12) (xy 184.785 66.675)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 67.945) (xy 125.73 67.945)
+			(xy 141.605 86.995) (xy 173.355 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1518,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 60.325) (xy 125.73 57.785)
+			(xy 173.355 79.375) (xy 173.355 76.835)
 		)
 		(stroke
 			(width 0)
@@ -1528,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 67.945) (xy 139.065 67.945)
+			(xy 173.355 86.995) (xy 186.69 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1538,7 +1907,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.625 75.565) (xy 66.04 75.565)
+			(xy 95.25 94.615) (xy 113.665 94.615)
 		)
 		(stroke
 			(width 0)
@@ -1548,7 +1917,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 73.025) (xy 81.28 93.345)
+			(xy 128.905 92.075) (xy 128.905 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1558,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.345) (xy 78.74 93.345)
+			(xy 128.905 112.395) (xy 126.365 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +1936,7 @@
 		(uuid "fd31ec4a-19bf-46f6-976a-65852b52c3e5")
 	)
 	(label "K23GND"
-		(at 131.445 80.645 0)
+		(at 179.07 99.695 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1578,7 +1947,7 @@
 		(uuid "069e839d-cee9-47be-9e5a-583f9be5c4b9")
 	)
 	(label "K1PWR"
-		(at 130.175 47.625 0)
+		(at 177.8 66.675 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1589,7 +1958,7 @@
 		(uuid "1dac5f8f-512f-4333-8aac-463c0f8fdf24")
 	)
 	(label "K3PWR"
-		(at 131.445 88.265 0)
+		(at 179.07 107.315 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1600,7 +1969,7 @@
 		(uuid "3ab197c1-30e7-4516-a531-9986539f7feb")
 	)
 	(label "HV.N_{IN}"
-		(at 52.07 55.245 0)
+		(at 99.695 74.295 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1611,7 +1980,7 @@
 		(uuid "51fbcf73-5cc7-4883-b0eb-0c0cda0d57fc")
 	)
 	(label "HV.LS"
-		(at 81.28 83.185 90)
+		(at 128.905 102.235 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1622,7 +1991,7 @@
 		(uuid "727b1337-fd43-411c-bfec-6d27f975044d")
 	)
 	(label "K2PWR"
-		(at 131.445 67.945 0)
+		(at 179.07 86.995 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1633,7 +2002,7 @@
 		(uuid "7e5ed95e-d0a4-4165-8f62-136ace68a41b")
 	)
 	(label "HV.L_{IN2}"
-		(at 52.07 95.885 0)
+		(at 99.695 114.935 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1644,7 +2013,7 @@
 		(uuid "93b5e99a-023a-4e0e-b0a0-52943b215587")
 	)
 	(label "HV.L_{OUT}"
-		(at 52.07 75.565 0)
+		(at 99.695 94.615 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1655,7 +2024,7 @@
 		(uuid "96eae84d-c1fb-4703-94b6-d221de92dec2")
 	)
 	(label "HV.L_{IN_{1}}"
-		(at 52.07 90.805 0)
+		(at 99.695 109.855 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1666,7 +2035,7 @@
 		(uuid "f797134b-a64c-4f53-81dc-682f0982a1e0")
 	)
 	(label "K1GND"
-		(at 130.175 60.325 0)
+		(at 177.8 79.375 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1677,7 +2046,7 @@
 		(uuid "fb72566c-ad45-485e-a3e9-ad4da62af409")
 	)
 	(label "HV.N_{OUT}"
-		(at 52.07 60.325 0)
+		(at 99.695 79.375 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1689,15 +2058,15 @@
 	)
 	(symbol
 		(lib_id "Koszalix_TabConnectors:TE-1-726388-2")
-		(at 47.625 90.805 180)
+		(at 95.25 109.855 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "038e42e7-4af3-4f0d-bcac-7230fce9b086")
-		(property "Reference" "J7"
-			(at 43.942 89.154 0)
+		(property "Reference" "J4"
+			(at 91.567 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +2074,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 47.625 90.805 0)
+			(at 95.25 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +2084,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Connectors_Tab:TE-1-726388-2"
-			(at 47.625 90.805 0)
+			(at 95.25 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +2094,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726388%7FE3%7Fpdf%7FEnglish%7FENG_CD_726388_E3.pdf%7F1-726388-2"
-			(at 47.625 90.805 0)
+			(at 95.25 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +2104,7 @@
 			)
 		)
 		(property "Description" "Tab Connector 6.4mm"
-			(at 47.625 90.805 0)
+			(at 95.25 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +2113,7 @@
 			)
 		)
 		(property "MPN" "TE-1-726388-2"
-			(at 44.958 92.456 0)
+			(at 92.583 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +2121,7 @@
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
-			(at 47.625 90.805 0)
+			(at 95.25 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +2136,7 @@
 		(instances
 			(project "lineScope-RelayBoard"
 				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1775,7 +2144,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 148.59 80.645 0)
+		(at 196.215 99.695 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1784,7 +2153,7 @@
 		(fields_autoplaced yes)
 		(uuid "039a2f0e-fa40-4e42-9ef2-a2fc6db78f31")
 		(property "Reference" "J10"
-			(at 151.13 79.3749 0)
+			(at 198.755 98.4249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +2162,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 151.13 81.9149 0)
+			(at 198.755 100.9649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +2171,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 148.59 80.645 0)
+			(at 196.215 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +2180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 80.645 0)
+			(at 196.215 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +2189,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 80.645 0)
+			(at 196.215 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +2217,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 166.37 51.435 0)
+		(at 69.85 175.895 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1857,7 +2226,7 @@
 		(fields_autoplaced yes)
 		(uuid "13b3f06f-3371-4779-bcca-c540ec154cd6")
 		(property "Reference" "H1"
-			(at 168.91 50.1649 0)
+			(at 72.39 174.6249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +2235,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 168.91 52.7049 0)
+			(at 72.39 177.1649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +2244,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 166.37 51.435 0)
+			(at 69.85 175.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +2253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 51.435 0)
+			(at 69.85 175.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +2262,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 166.37 51.435 0)
+			(at 69.85 175.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,7 +2281,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Shottky_Diodes:LL103A")
-		(at 123.19 74.295 270)
+		(at 170.815 93.345 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1921,7 +2290,7 @@
 		(fields_autoplaced yes)
 		(uuid "14b69ae5-9ced-4c65-9273-59d2a57f55d5")
 		(property "Reference" "D2"
-			(at 128.905 72.7074 90)
+			(at 175.895 91.7574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +2299,7 @@
 			)
 		)
 		(property "Value" "LL103A"
-			(at 128.905 75.2474 90)
+			(at 175.895 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +2308,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 129.54 89.535 0)
+			(at 177.165 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +2318,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/4b83a5789d32f39934640cef179344a8/ll103a.pdf"
-			(at 129.54 89.535 0)
+			(at 177.165 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,8 +2327,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 123.19 74.295 0)
+		(property "Description" "Schotky diode"
+			(at 170.815 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +2337,7 @@
 			)
 		)
 		(property "Manufacturer" "Diotec Semiconductor"
-			(at 129.54 89.535 0)
+			(at 177.165 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +2347,7 @@
 			)
 		)
 		(property "MPN" "LL103A"
-			(at 127 90.805 0)
+			(at 174.625 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +2357,7 @@
 			)
 		)
 		(property "Peak reverse voltage" "40V"
-			(at 123.19 74.295 0)
+			(at 170.815 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +2367,7 @@
 			)
 		)
 		(property "Power dissipation" "400mW"
-			(at 127 90.805 0)
+			(at 174.625 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +2377,7 @@
 			)
 		)
 		(property "Max. average forward current" "350mA"
-			(at 127 90.805 0)
+			(at 174.625 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +2387,7 @@
 			)
 		)
 		(property "unction temperature" "-55 to +125°C"
-			(at 129.54 89.535 0)
+			(at 177.165 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2397,7 @@
 			)
 		)
 		(property " junction capacitance" "50pF"
-			(at 123.19 74.295 0)
+			(at 170.815 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +2407,7 @@
 			)
 		)
 		(property "Reverse recovery time" "10ns"
-			(at 123.19 74.295 0)
+			(at 170.815 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2417,7 @@
 			)
 		)
 		(property "Leakage current" "5uA"
-			(at 123.19 74.295 0)
+			(at 170.815 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +2443,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Relays:RM85-1011-35-1012")
-		(at 66.04 75.565 90)
+		(at 113.665 94.615 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2082,7 +2451,7 @@
 		(dnp no)
 		(uuid "181bd0e1-7790-4f22-b13f-dfaff139b8d3")
 		(property "Reference" "K2"
-			(at 72.517 66.04 90)
+			(at 120.142 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2459,7 @@
 			)
 		)
 		(property "Value" "RM85-1011-35-1012"
-			(at 77.978 53.721 0)
+			(at 125.603 72.771 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,8 +2468,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Koszalix_Relays:RM84"
-			(at 77.978 53.721 0)
+		(property "Footprint" "Koszalix_Relays:RM85_Socket"
+			(at 125.603 72.771 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2479,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.relpol.pl/Produkty/Przekazniki-miniaturowe/content/download/13766/168091/file/RM84.pdf"
-			(at 77.978 53.721 0)
+			(at 125.603 72.771 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2489,7 @@
 			)
 		)
 		(property "Description" "12V coil relay"
-			(at 66.04 75.565 0)
+			(at 113.665 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2499,7 @@
 			)
 		)
 		(property "Manufacturer" "RELPOL"
-			(at 77.978 53.721 0)
+			(at 125.603 72.771 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,11 +2509,12 @@
 			)
 		)
 		(property "MPN" "RM85-1011-35-1012"
-			(at 72.517 68.58 90)
+			(at 120.142 87.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "11"
@@ -2181,8 +2551,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Koszalix_Relays:RM85-1011-35-1012")
-		(at 93.98 49.53 0)
+		(lib_id "Koszalix_Relays:RM85-1011-35-1012_Socket")
+		(at 141.605 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2191,7 +2561,7 @@
 		(fields_autoplaced yes)
 		(uuid "22035593-c711-4309-8a37-6f942ebd5cc2")
 		(property "Reference" "K1"
-			(at 99.06 52.7807 0)
+			(at 146.685 70.5607 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2570,7 @@
 			)
 		)
 		(property "Value" "RM85-1011-35-1012"
-			(at 115.824 61.468 0)
+			(at 163.449 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2209,8 +2579,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Koszalix_Relays:RM84"
-			(at 115.824 61.468 0)
+		(property "Footprint" "Koszalix_Relays:RM85_Socket"
+			(at 163.449 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,8 +2589,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.relpol.pl/Produkty/Przekazniki-miniaturowe/content/download/13766/168091/file/RM84.pdf"
-			(at 115.824 61.468 0)
+		(property "Datasheet" "https://www.relpol.pl/Produkty/Gniazda-i-akcesoria/Gniazda-do-przekaznikow-miniaturowych/content/download/60076/973976/file/Gniazda"
+			(at 163.449 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,8 +2599,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "12V coil relay"
-			(at 93.98 49.53 0)
+		(property "Description" "RM85 relay; 12V Coil; with socket"
+			(at 141.605 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,8 +2609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "RELPOL"
-			(at 115.824 61.468 0)
+		(property "Manufacturer" "Relpol"
+			(at 163.449 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,8 +2619,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RM85-1011-35-1012"
-			(at 99.06 55.3207 0)
+		(property "MPN1" "EC50"
+			(at 146.685 73.1007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN2" "RM85-1011-35-1012"
+			(at 146.685 75.6407 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2644,7 @@
 			(uuid "6ec08818-7cf4-444a-85a1-8625d4528d1f")
 		)
 		(pin "A2"
-			(uuid "d113147d-cb9a-497f-a567-ff085546c2c2")
+			(uuid "d113147d-cb9a-497f-a567-ff085546c2c3")
 		)
 		(pin "22"
 			(uuid "772c301b-e73d-45dd-ac83-d489bf9fa8da")
@@ -2280,7 +2659,7 @@
 			(uuid "756de8d0-74bc-436f-8ce4-0744474a72d4")
 		)
 		(pin "A1"
-			(uuid "e0fcfbe5-a7b7-4e8e-979c-6b653bc3ce74")
+			(uuid "e0fcfbe5-a7b7-4e8e-979c-6b653bc3ce75")
 		)
 		(instances
 			(project "lineScope-RelayBoard"
@@ -2293,15 +2672,15 @@
 	)
 	(symbol
 		(lib_id "Koszalix_TabConnectors:TE-1-726388-2")
-		(at 47.625 95.885 180)
+		(at 95.25 114.935 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "262f68e7-becb-4a7e-959b-bb3148885ca6")
-		(property "Reference" "J8"
-			(at 43.942 94.234 0)
+		(property "Reference" "J6"
+			(at 91.567 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2688,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 47.625 95.885 0)
+			(at 95.25 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2698,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Connectors_Tab:TE-1-726388-2"
-			(at 47.625 95.885 0)
+			(at 95.25 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2708,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726388%7FE3%7Fpdf%7FEnglish%7FENG_CD_726388_E3.pdf%7F1-726388-2"
-			(at 47.625 95.885 0)
+			(at 95.25 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2718,7 @@
 			)
 		)
 		(property "Description" "Tab Connector 6.4mm"
-			(at 47.625 95.885 0)
+			(at 95.25 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2727,7 @@
 			)
 		)
 		(property "MPN" "TE-1-726388-2"
-			(at 44.958 97.536 0)
+			(at 92.583 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2735,7 @@
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
-			(at 47.625 95.885 0)
+			(at 95.25 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2750,7 @@
 		(instances
 			(project "lineScope-RelayBoard"
 				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
-					(reference "J8")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2379,7 +2758,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Shottky_Diodes:LL103A")
-		(at 123.19 53.975 270)
+		(at 170.815 73.025 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2388,7 +2767,7 @@
 		(fields_autoplaced yes)
 		(uuid "3065d9e8-863a-42b1-83e0-04221fdc09df")
 		(property "Reference" "D1"
-			(at 128.905 52.3874 90)
+			(at 175.895 71.4374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2776,7 @@
 			)
 		)
 		(property "Value" "LL103A"
-			(at 128.905 54.9274 90)
+			(at 175.895 73.9774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2785,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 129.54 69.215 0)
+			(at 177.165 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2795,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/4b83a5789d32f39934640cef179344a8/ll103a.pdf"
-			(at 129.54 69.215 0)
+			(at 177.165 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,8 +2804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 123.19 53.975 0)
+		(property "Description" "Schotky diode"
+			(at 170.815 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2814,7 @@
 			)
 		)
 		(property "Manufacturer" "Diotec Semiconductor"
-			(at 129.54 69.215 0)
+			(at 177.165 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2824,7 @@
 			)
 		)
 		(property "MPN" "LL103A"
-			(at 127 70.485 0)
+			(at 174.625 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +2834,7 @@
 			)
 		)
 		(property "Peak reverse voltage" "40V"
-			(at 123.19 53.975 0)
+			(at 170.815 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +2844,7 @@
 			)
 		)
 		(property "Power dissipation" "400mW"
-			(at 127 70.485 0)
+			(at 174.625 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2854,7 @@
 			)
 		)
 		(property "Max. average forward current" "350mA"
-			(at 127 70.485 0)
+			(at 174.625 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2864,7 @@
 			)
 		)
 		(property "unction temperature" "-55 to +125°C"
-			(at 129.54 69.215 0)
+			(at 177.165 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2874,7 @@
 			)
 		)
 		(property " junction capacitance" "50pF"
-			(at 123.19 53.975 0)
+			(at 170.815 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +2884,7 @@
 			)
 		)
 		(property "Reverse recovery time" "10ns"
-			(at 123.19 53.975 0)
+			(at 170.815 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +2894,7 @@
 			)
 		)
 		(property "Leakage current" "5uA"
-			(at 123.19 53.975 0)
+			(at 170.815 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,15 +2920,15 @@
 	)
 	(symbol
 		(lib_id "Koszalix_TabConnectors:TE-1-726388-2")
-		(at 47.625 75.565 180)
+		(at 95.25 94.615 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "41393425-fd70-4954-a0d0-bf903362d17b")
-		(property "Reference" "J4"
-			(at 43.942 73.914 0)
+		(property "Reference" "J2"
+			(at 91.567 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2936,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 47.625 75.565 0)
+			(at 95.25 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2946,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Connectors_Tab:TE-1-726388-2"
-			(at 47.625 75.565 0)
+			(at 95.25 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2956,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726388%7FE3%7Fpdf%7FEnglish%7FENG_CD_726388_E3.pdf%7F1-726388-2"
-			(at 47.625 75.565 0)
+			(at 95.25 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2966,7 @@
 			)
 		)
 		(property "Description" "Tab Connector 6.4mm"
-			(at 47.625 75.565 0)
+			(at 95.25 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2975,7 @@
 			)
 		)
 		(property "MPN" "TE-1-726388-2"
-			(at 44.958 77.216 0)
+			(at 92.583 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,7 +2983,7 @@
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
-			(at 47.625 75.565 0)
+			(at 95.25 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2998,7 @@
 		(instances
 			(project "lineScope-RelayBoard"
 				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2627,16 +3006,15 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Relays:RM85-1011-35-1012")
-		(at 66.04 95.885 90)
+		(at 113.665 114.935 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "59079d1d-ddb9-4010-ae66-fcb004dd97e5")
 		(property "Reference" "K3"
-			(at 72.517 86.36 90)
+			(at 120.396 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +3022,7 @@
 			)
 		)
 		(property "Value" "RM85-1011-35-1012"
-			(at 77.978 74.041 0)
+			(at 125.603 93.091 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,8 +3031,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Koszalix_Relays:RM84"
-			(at 77.978 74.041 0)
+		(property "Footprint" "Koszalix_Relays:RM85_Socket"
+			(at 125.603 93.091 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +3042,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.relpol.pl/Produkty/Przekazniki-miniaturowe/content/download/13766/168091/file/RM84.pdf"
-			(at 77.978 74.041 0)
+			(at 125.603 93.091 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +3052,7 @@
 			)
 		)
 		(property "Description" "12V coil relay"
-			(at 66.04 95.885 0)
+			(at 113.665 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +3062,7 @@
 			)
 		)
 		(property "Manufacturer" "RELPOL"
-			(at 77.978 74.041 0)
+			(at 125.603 93.091 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,11 +3072,12 @@
 			)
 		)
 		(property "MPN" "RM85-1011-35-1012"
-			(at 72.517 88.9 90)
+			(at 120.142 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "11"
@@ -2708,7 +3087,7 @@
 			(uuid "ea4dfd7f-37cb-48d5-9691-437ac424f6e1")
 		)
 		(pin "A2"
-			(uuid "d113147d-cb9a-497f-a567-ff085546c2c2")
+			(uuid "d113147d-cb9a-497f-a567-ff085546c2c4")
 		)
 		(pin "22"
 			(uuid "cb2ec681-aa64-4898-ac3e-7358989eb872")
@@ -2723,7 +3102,7 @@
 			(uuid "d0edc199-ba32-4f73-aff7-95c00c616a33")
 		)
 		(pin "A1"
-			(uuid "e0fcfbe5-a7b7-4e8e-979c-6b653bc3ce74")
+			(uuid "e0fcfbe5-a7b7-4e8e-979c-6b653bc3ce76")
 		)
 		(instances
 			(project "lineScope-RelayBoard"
@@ -2736,7 +3115,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Shottky_Diodes:LL103A")
-		(at 123.19 94.615 270)
+		(at 170.815 113.665 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2745,7 +3124,7 @@
 		(fields_autoplaced yes)
 		(uuid "68794944-8558-439c-98d4-c2fd911c462f")
 		(property "Reference" "D3"
-			(at 128.905 93.0274 90)
+			(at 175.895 112.0774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +3133,7 @@
 			)
 		)
 		(property "Value" "LL103A"
-			(at 128.905 95.5674 90)
+			(at 175.895 114.6174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +3142,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 129.54 109.855 0)
+			(at 177.165 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +3152,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/4b83a5789d32f39934640cef179344a8/ll103a.pdf"
-			(at 129.54 109.855 0)
+			(at 177.165 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,8 +3161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 123.19 94.615 0)
+		(property "Description" "Schotky diode"
+			(at 170.815 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,7 +3171,7 @@
 			)
 		)
 		(property "Manufacturer" "Diotec Semiconductor"
-			(at 129.54 109.855 0)
+			(at 177.165 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +3181,7 @@
 			)
 		)
 		(property "MPN" "LL103A"
-			(at 127 111.125 0)
+			(at 174.625 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +3191,7 @@
 			)
 		)
 		(property "Peak reverse voltage" "40V"
-			(at 123.19 94.615 0)
+			(at 170.815 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +3201,7 @@
 			)
 		)
 		(property "Power dissipation" "400mW"
-			(at 127 111.125 0)
+			(at 174.625 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +3211,7 @@
 			)
 		)
 		(property "Max. average forward current" "350mA"
-			(at 127 111.125 0)
+			(at 174.625 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +3221,7 @@
 			)
 		)
 		(property "unction temperature" "-55 to +125°C"
-			(at 129.54 109.855 0)
+			(at 177.165 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,7 +3231,7 @@
 			)
 		)
 		(property " junction capacitance" "50pF"
-			(at 123.19 94.615 0)
+			(at 170.815 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +3241,7 @@
 			)
 		)
 		(property "Reverse recovery time" "10ns"
-			(at 123.19 94.615 0)
+			(at 170.815 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +3251,7 @@
 			)
 		)
 		(property "Leakage current" "5uA"
-			(at 123.19 94.615 0)
+			(at 170.815 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +3277,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 166.37 56.515 0)
+		(at 69.85 180.975 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2907,7 +3286,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c1240ff-490c-493a-9400-91002e363261")
 		(property "Reference" "H2"
-			(at 168.91 55.2449 0)
+			(at 72.39 179.7049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +3295,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 168.91 57.7849 0)
+			(at 72.39 182.2449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +3304,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 166.37 56.515 0)
+			(at 69.85 180.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +3313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 56.515 0)
+			(at 69.85 180.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +3322,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 166.37 56.515 0)
+			(at 69.85 180.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +3341,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_TabConnectors:TE-1-726388-2")
-		(at 47.625 55.245 180)
+		(at 95.25 74.295 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2970,7 +3349,7 @@
 		(dnp no)
 		(uuid "743aed35-cb40-44a7-9127-94348440d4a4")
 		(property "Reference" "J1"
-			(at 43.942 53.594 0)
+			(at 91.567 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +3357,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 47.625 55.245 0)
+			(at 95.25 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +3367,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Connectors_Tab:TE-1-726388-2"
-			(at 47.625 55.245 0)
+			(at 95.25 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3377,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726388%7FE3%7Fpdf%7FEnglish%7FENG_CD_726388_E3.pdf%7F1-726388-2"
-			(at 47.625 55.245 0)
+			(at 95.25 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3387,7 @@
 			)
 		)
 		(property "Description" "Tab Connector 6.4mm"
-			(at 47.625 55.245 0)
+			(at 95.25 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3396,7 @@
 			)
 		)
 		(property "MPN" "TE-1-726388-2"
-			(at 44.958 56.896 0)
+			(at 92.583 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3404,7 @@
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
-			(at 47.625 55.245 0)
+			(at 95.25 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,16 +3427,15 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Relays:RM85-1011-35-1012")
-		(at 66.04 55.245 90)
+		(at 113.665 74.295 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99846fa3-f20b-437e-a7d1-3f15b7e052ef")
 		(property "Reference" "K1"
-			(at 72.517 45.72 90)
+			(at 120.142 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3443,7 @@
 			)
 		)
 		(property "Value" "RM85-1011-35-1012"
-			(at 77.978 33.401 0)
+			(at 125.603 52.451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,8 +3452,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Koszalix_Relays:RM84"
-			(at 77.978 33.401 0)
+		(property "Footprint" "Koszalix_Relays:RM85_Socket"
+			(at 125.603 52.451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3463,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.relpol.pl/Produkty/Przekazniki-miniaturowe/content/download/13766/168091/file/RM84.pdf"
-			(at 77.978 33.401 0)
+			(at 125.603 52.451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3095,7 +3473,7 @@
 			)
 		)
 		(property "Description" "12V coil relay"
-			(at 66.04 55.245 0)
+			(at 113.665 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,7 +3483,7 @@
 			)
 		)
 		(property "Manufacturer" "RELPOL"
-			(at 77.978 33.401 0)
+			(at 125.603 52.451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,122 +3493,12 @@
 			)
 		)
 		(property "MPN" "RM85-1011-35-1012"
-			(at 72.517 48.26 90)
+			(at 120.142 66.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(pin "11"
-			(uuid "fa1c9664-ca15-495e-b4f5-7510e905e527")
-		)
-		(pin "12"
-			(uuid "6ec08818-7cf4-444a-85a1-8625d4528d1f")
-		)
-		(pin "A2"
-			(uuid "d113147d-cb9a-497f-a567-ff085546c2c2")
-		)
-		(pin "22"
-			(uuid "772c301b-e73d-45dd-ac83-d489bf9fa8da")
-		)
-		(pin "14"
-			(uuid "8e0669f9-2500-40ac-a1b8-25c0cecd64ab")
-		)
-		(pin "24"
-			(uuid "77ca4d14-fc15-4d10-b467-a67c8d3fbb46")
-		)
-		(pin "21"
-			(uuid "756de8d0-74bc-436f-8ce4-0744474a72d4")
-		)
-		(pin "A1"
-			(uuid "e0fcfbe5-a7b7-4e8e-979c-6b653bc3ce74")
-		)
-		(instances
-			(project "lineScope-RelayBoard"
-				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
-					(reference "K1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Koszalix_Relays:RM85-1011-35-1012")
-		(at 93.98 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acb22b02-381d-4d5b-956e-8e68dc1d7a0e")
-		(property "Reference" "K2"
-			(at 99.06 73.1007 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RM85-1011-35-1012"
-			(at 115.824 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "Footprint" "Koszalix_Relays:RM84"
-			(at 115.824 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.relpol.pl/Produkty/Przekazniki-miniaturowe/content/download/13766/168091/file/RM84.pdf"
-			(at 115.824 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "12V coil relay"
-			(at 93.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "RELPOL"
-			(at 115.824 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RM85-1011-35-1012"
-			(at 99.06 75.6407 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "11"
@@ -3240,7 +3508,7 @@
 			(uuid "6ec08818-7cf4-444a-85a1-8625d4528d20")
 		)
 		(pin "A2"
-			(uuid "97024248-6c6a-42f9-92a6-6132016b0a3b")
+			(uuid "d113147d-cb9a-497f-a567-ff085546c2c5")
 		)
 		(pin "22"
 			(uuid "772c301b-e73d-45dd-ac83-d489bf9fa8db")
@@ -3253,6 +3521,126 @@
 		)
 		(pin "21"
 			(uuid "756de8d0-74bc-436f-8ce4-0744474a72d5")
+		)
+		(pin "A1"
+			(uuid "e0fcfbe5-a7b7-4e8e-979c-6b653bc3ce77")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "K1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Koszalix_Relays:RM85-1011-35-1012_Socket")
+		(at 141.605 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb22b02-381d-4d5b-956e-8e68dc1d7a0e")
+		(property "Reference" "K2"
+			(at 146.685 90.8807 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RM85-1011-35-1012"
+			(at 163.449 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Koszalix_Relays:RM85_Socket"
+			(at 163.449 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.relpol.pl/Produkty/Gniazda-i-akcesoria/Gniazda-do-przekaznikow-miniaturowych/content/download/60076/973976/file/Gniazda"
+			(at 163.449 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RM85 relay; 12V Coil; with socket"
+			(at 141.605 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Relpol"
+			(at 163.449 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "EC50"
+			(at 146.685 93.4207 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN2" "RM85-1011-35-1012"
+			(at 146.685 95.9607 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "11"
+			(uuid "fa1c9664-ca15-495e-b4f5-7510e905e529")
+		)
+		(pin "12"
+			(uuid "6ec08818-7cf4-444a-85a1-8625d4528d21")
+		)
+		(pin "A2"
+			(uuid "97024248-6c6a-42f9-92a6-6132016b0a3b")
+		)
+		(pin "22"
+			(uuid "772c301b-e73d-45dd-ac83-d489bf9fa8dc")
+		)
+		(pin "14"
+			(uuid "8e0669f9-2500-40ac-a1b8-25c0cecd64ad")
+		)
+		(pin "24"
+			(uuid "77ca4d14-fc15-4d10-b467-a67c8d3fbb48")
+		)
+		(pin "21"
+			(uuid "756de8d0-74bc-436f-8ce4-0744474a72d6")
 		)
 		(pin "A1"
 			(uuid "e72ec037-079c-43c5-a92a-329ee57c6fce")
@@ -3268,7 +3656,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 166.37 65.405 0)
+		(at 69.85 189.865 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3277,7 +3665,7 @@
 		(fields_autoplaced yes)
 		(uuid "b12cbaa7-a230-4fcb-bdd1-a87ea6b04554")
 		(property "Reference" "H4"
-			(at 168.91 64.1349 0)
+			(at 72.39 188.5949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3674,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 168.91 66.6749 0)
+			(at 72.39 191.1349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3683,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 166.37 65.405 0)
+			(at 69.85 189.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3692,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 65.405 0)
+			(at 69.85 189.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3701,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 166.37 65.405 0)
+			(at 69.85 189.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,17 +3719,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Koszalix_Relays:RM85-1011-35-1012")
-		(at 93.98 99.06 0)
+		(lib_id "Koszalix_Relays:RM85-1011-35-1012_Socket")
+		(at 141.605 118.11 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b8cd990a-6cde-4eba-a038-bcf0dfc9370a")
 		(property "Reference" "K3"
-			(at 99.06 95.8093 0)
+			(at 146.685 111.049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3739,7 @@
 			)
 		)
 		(property "Value" "RM85-1011-35-1012"
-			(at 115.824 87.122 0)
+			(at 163.449 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,8 +3748,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Koszalix_Relays:RM84"
-			(at 115.824 87.122 0)
+		(property "Footprint" "Koszalix_Relays:RM85_Socket"
+			(at 163.449 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,8 +3758,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.relpol.pl/Produkty/Przekazniki-miniaturowe/content/download/13766/168091/file/RM84.pdf"
-			(at 115.824 87.122 0)
+		(property "Datasheet" "https://www.relpol.pl/Produkty/Gniazda-i-akcesoria/Gniazda-do-przekaznikow-miniaturowych/content/download/60076/973976/file/Gniazda"
+			(at 163.449 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,8 +3768,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "12V coil relay"
-			(at 93.98 99.06 0)
+		(property "Description" "RM85 relay; 12V Coil; with socket"
+			(at 141.605 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,8 +3778,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "RELPOL"
-			(at 115.824 87.122 0)
+		(property "Manufacturer" "Relpol"
+			(at 163.449 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,8 +3788,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RM85-1011-35-1012"
-			(at 99.06 93.2693 0)
+		(property "MPN1" "EC50"
+			(at 146.685 113.589 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN2" "RM85-1011-35-1012"
+			(at 146.685 116.129 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,25 +3807,25 @@
 			)
 		)
 		(pin "11"
-			(uuid "fa1c9664-ca15-495e-b4f5-7510e905e528")
+			(uuid "fa1c9664-ca15-495e-b4f5-7510e905e52a")
 		)
 		(pin "12"
-			(uuid "6ec08818-7cf4-444a-85a1-8625d4528d20")
+			(uuid "6ec08818-7cf4-444a-85a1-8625d4528d22")
 		)
 		(pin "A2"
 			(uuid "2c15e075-428d-4927-bfb8-1e008d1b2bf5")
 		)
 		(pin "22"
-			(uuid "772c301b-e73d-45dd-ac83-d489bf9fa8db")
+			(uuid "772c301b-e73d-45dd-ac83-d489bf9fa8dd")
 		)
 		(pin "14"
-			(uuid "8e0669f9-2500-40ac-a1b8-25c0cecd64ac")
+			(uuid "8e0669f9-2500-40ac-a1b8-25c0cecd64ae")
 		)
 		(pin "24"
-			(uuid "77ca4d14-fc15-4d10-b467-a67c8d3fbb47")
+			(uuid "77ca4d14-fc15-4d10-b467-a67c8d3fbb49")
 		)
 		(pin "21"
-			(uuid "756de8d0-74bc-436f-8ce4-0744474a72d5")
+			(uuid "756de8d0-74bc-436f-8ce4-0744474a72d7")
 		)
 		(pin "A1"
 			(uuid "e9c1aa0b-06ca-4574-9dff-5931d96b0ffe")
@@ -3443,7 +3841,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 166.37 60.96 0)
+		(at 69.85 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3452,7 +3850,7 @@
 		(fields_autoplaced yes)
 		(uuid "e23f9529-2e54-45e8-9b4d-a68dfbc97026")
 		(property "Reference" "H3"
-			(at 168.91 59.6899 0)
+			(at 72.39 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3859,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 168.91 62.2299 0)
+			(at 72.39 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3868,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 166.37 60.96 0)
+			(at 69.85 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 60.96 0)
+			(at 69.85 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +3886,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 166.37 60.96 0)
+			(at 69.85 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3905,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 147.955 54.61 0)
+		(at 195.58 73.66 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3515,8 +3913,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4a84f89-2af7-406f-a655-36c35112abb1")
-		(property "Reference" "J2"
-			(at 150.495 54.6101 0)
+		(property "Reference" "J11"
+			(at 198.12 73.6601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3923,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 150.495 52.0701 0)
+			(at 198.12 71.1201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3932,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 147.955 54.61 0)
+			(at 195.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.955 54.61 0)
+			(at 195.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3950,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 147.955 54.61 0)
+			(at 195.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3967,7 @@
 		(instances
 			(project "lineScope-RelayBoard"
 				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
-					(reference "J2")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -3577,7 +3975,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_TabConnectors:TE-1-726388-2")
-		(at 47.625 60.325 180)
+		(at 95.25 79.375 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3585,7 +3983,7 @@
 		(dnp no)
 		(uuid "f500db58-c079-4d40-8481-f3c248861ef6")
 		(property "Reference" "J3"
-			(at 43.942 58.674 0)
+			(at 91.567 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +3991,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 47.625 60.325 0)
+			(at 95.25 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +4001,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Connectors_Tab:TE-1-726388-2"
-			(at 47.625 60.325 0)
+			(at 95.25 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +4011,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726388%7FE3%7Fpdf%7FEnglish%7FENG_CD_726388_E3.pdf%7F1-726388-2"
-			(at 47.625 60.325 0)
+			(at 95.25 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,7 +4021,7 @@
 			)
 		)
 		(property "Description" "Tab Connector 6.4mm"
-			(at 47.625 60.325 0)
+			(at 95.25 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,7 +4030,7 @@
 			)
 		)
 		(property "MPN" "TE-1-726388-2"
-			(at 44.958 61.976 0)
+			(at 92.583 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +4038,7 @@
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
-			(at 47.625 60.325 0)
+			(at 95.25 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
