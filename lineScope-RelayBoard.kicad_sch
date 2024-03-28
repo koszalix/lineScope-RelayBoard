@@ -11,22 +11,22 @@
 		(company "Koszalix")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -51,7 +51,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,10 +78,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x05_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -90,134 +90,6 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -252,8 +124,19 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -263,7 +146,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -281,7 +164,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -299,7 +182,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -309,6 +192,178 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Koszalix_Capacitors_Ceramic_Samsung_CL05A:CAP_100n_0402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "100n"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+				(at 5.08 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/4a42202b32dab16128fe107dd69598cc/samsung-chip-cap.pdf"
+				(at 5.08 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL05A104KP5NNNC"
+				(at 5.08 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung"
+				(at 5.08 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_100n_0402_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -4.572) (xy 2.032 -4.572)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAP_100n_0402_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -457,7 +512,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
@@ -811,7 +866,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
@@ -1001,6 +1056,192 @@
 						)
 					)
 					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10k"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 12.7 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
+				(at 57.15 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0603FR-0710k"
+				(at 12.7 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Maximum Working Voltage " "50 V"
+				(at 12.7 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Maximum Overload Voltage" "100 V"
+				(at 12.7 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Dielectric Withstanding Voltage " "100 V"
+				(at 12.7 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "200ppm"
+				(at 12.7 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Range" "–55 °C to +155 °C"
+				(at 12.7 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "RES_10k_0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES_10k_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1444,60 +1685,588 @@
 				)
 			)
 		)
+		(symbol "Transistor_BJT:BC847"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC847"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Small Signal Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC847_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC847_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 189.23 99.695)
+		(at 152.4 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1fefcff9-7588-4f8f-8339-5d6c9a252a53")
+		(uuid "089bff81-f60f-4ed3-aa4e-70d6639f1017")
 	)
 	(junction
-		(at 173.355 99.695)
+		(at 222.25 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a4cdeb5-c001-47c6-8031-38a050a6d12e")
+		(uuid "15f8ca38-9ad3-4efa-a904-ded964f107fa")
 	)
 	(junction
-		(at 173.355 107.315)
+		(at 152.4 31.115)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "462de675-7dd9-4322-837a-bf40cb5177ef")
+		(uuid "1cf9dbc7-9d48-4d45-b7b9-53547110a5c6")
 	)
 	(junction
-		(at 173.355 120.015)
+		(at 152.4 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6446d25d-04ff-4acd-86f3-e41905269f2b")
+		(uuid "284142a5-29c2-494f-a8b6-8c6ea0423d30")
 	)
 	(junction
-		(at 173.355 79.375)
+		(at 222.25 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "76ab1a14-1d43-4c77-a2e0-9a4bf5b77413")
+		(uuid "3975ad13-c170-48f4-adda-45c4a5009312")
 	)
 	(junction
-		(at 173.355 66.675)
+		(at 151.765 126.365)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ba92603a-53dc-4bb0-96c7-6a6624654adf")
+		(uuid "3fef1daf-d4d0-4c57-891b-387eaf10febe")
 	)
 	(junction
-		(at 173.355 86.995)
+		(at 151.765 113.665)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ced86a07-e50b-43af-9c09-335025f32500")
+		(uuid "9ba67197-dcb1-4fe4-9dd9-c0d5e0feed88")
+	)
+	(junction
+		(at 152.4 43.815)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3f965c4-a0da-4ec6-b997-9cd75f61802d")
 	)
 	(no_connect
-		(at 113.665 69.215)
+		(at 92.71 33.655)
 		(uuid "740ebd7e-9765-4b39-89e7-ba412f2e3d20")
 	)
 	(no_connect
-		(at 113.665 89.535)
+		(at 92.71 53.975)
 		(uuid "f0c4038a-93b5-4143-ad4c-e529711010b1")
 	)
 	(wire
 		(pts
-			(xy 173.355 107.315) (xy 173.355 109.855)
+			(xy 151.765 112.395) (xy 151.765 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005f5b14-82b0-438d-baf1-922c910e64ad")
+	)
+	(wire
+		(pts
+			(xy 152.4 95.25) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05cba337-9a23-43cb-bcc8-223ac332b361")
+	)
+	(wire
+		(pts
+			(xy 151.765 113.665) (xy 151.765 116.205)
 		)
 		(stroke
 			(width 0)
@@ -1507,7 +2276,57 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 118.11) (xy 141.605 120.015)
+			(xy 168.91 88.9) (xy 173.355 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065bbc57-9c6c-4a64-bed4-1009ffbfe970")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f5d455-0ff2-4797-8884-2c99a659d2c8")
+	)
+	(wire
+		(pts
+			(xy 222.25 55.88) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079d9d52-f3ba-4d71-9e9a-1d4f4ede50e8")
+	)
+	(wire
+		(pts
+			(xy 161.29 88.9) (xy 160.02 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c536a79-ecf0-443b-b5a2-bedac09b5879")
+	)
+	(wire
+		(pts
+			(xy 168.91 50.165) (xy 173.355 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf4b19b-5a0b-4601-9c0c-58f575b371db")
+	)
+	(wire
+		(pts
+			(xy 120.015 124.46) (xy 120.015 126.365)
 		)
 		(stroke
 			(width 0)
@@ -1517,7 +2336,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 107.315) (xy 173.355 107.315)
+			(xy 120.015 113.665) (xy 151.765 113.665)
 		)
 		(stroke
 			(width 0)
@@ -1527,17 +2346,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 107.315) (xy 173.355 107.315)
+			(xy 161.29 50.165) (xy 160.02 50.165)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f6f775e-2c7e-4571-a444-9f51c575ffc4")
+		(uuid "2d935b34-fbb8-41d7-8282-dacbca0eea26")
 	)
 	(wire
 		(pts
-			(xy 128.905 92.075) (xy 126.365 92.075)
+			(xy 107.95 56.515) (xy 105.41 56.515)
 		)
 		(stroke
 			(width 0)
@@ -1547,7 +2366,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 114.935) (xy 113.665 114.935)
+			(xy 74.295 79.375) (xy 92.71 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1557,7 +2376,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 109.855) (xy 113.665 109.855)
+			(xy 74.295 74.295) (xy 92.71 74.295)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 109.22) (xy 141.605 107.315)
+			(xy 120.015 115.57) (xy 120.015 113.665)
 		)
 		(stroke
 			(width 0)
@@ -1577,7 +2396,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 88.9) (xy 141.605 86.995)
+			(xy 120.65 71.755) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1587,7 +2406,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 79.375) (xy 128.905 79.375)
+			(xy 214.63 54.61) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44047ea5-e37d-4c87-a4a3-3c919336d0d4")
+	)
+	(wire
+		(pts
+			(xy 74.295 43.815) (xy 107.95 43.815)
 		)
 		(stroke
 			(width 0)
@@ -1597,17 +2426,57 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 120.015) (xy 173.355 120.015)
+			(xy 151.765 127.635) (xy 151.765 126.365)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a6c5593-58f8-491c-997f-25a53bdac3d1")
+		(uuid "4ab2d117-7964-4945-8d52-f1020c9ba3b2")
 	)
 	(wire
 		(pts
-			(xy 128.905 71.755) (xy 126.365 71.755)
+			(xy 214.63 43.18) (xy 214.63 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57327354-da15-404d-93fb-191660b5dffc")
+	)
+	(wire
+		(pts
+			(xy 152.4 29.845) (xy 152.4 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2a56bb-8b69-44a2-90f2-0473fc36e9ec")
+	)
+	(wire
+		(pts
+			(xy 160.655 132.715) (xy 159.385 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5adf427a-c81b-4ab9-8aaa-c1c88f216294")
+	)
+	(wire
+		(pts
+			(xy 152.4 56.515) (xy 152.4 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c952134-6c15-48b1-ae1c-cce814702639")
+	)
+	(wire
+		(pts
+			(xy 107.95 36.195) (xy 105.41 36.195)
 		)
 		(stroke
 			(width 0)
@@ -1617,7 +2486,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 97.79) (xy 141.605 99.695)
+			(xy 120.65 80.645) (xy 120.65 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1627,7 +2496,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 77.47) (xy 141.605 79.375)
+			(xy 120.65 41.91) (xy 120.65 43.815)
 		)
 		(stroke
 			(width 0)
@@ -1637,17 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 99.695) (xy 189.23 99.695)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63c42525-f915-43c5-8a21-60eaa89b3581")
-	)
-	(wire
-		(pts
-			(xy 173.355 99.695) (xy 173.355 97.155)
+			(xy 152.4 82.55) (xy 152.4 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1657,7 +2516,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 120.015) (xy 173.355 117.475)
+			(xy 151.765 126.365) (xy 151.765 123.825)
 		)
 		(stroke
 			(width 0)
@@ -1667,17 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 97.155) (xy 186.69 97.155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ff4f7e-bfc7-4739-8ec5-a1c9376be1d6")
-	)
-	(wire
-		(pts
-			(xy 173.355 66.675) (xy 173.355 69.215)
+			(xy 152.4 31.115) (xy 152.4 33.655)
 		)
 		(stroke
 			(width 0)
@@ -1687,7 +2536,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.905 79.375) (xy 128.905 71.755)
+			(xy 222.25 43.18) (xy 222.25 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70042131-d57e-4774-821a-c773a7bdd129")
+	)
+	(wire
+		(pts
+			(xy 222.25 54.61) (xy 223.52 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70277ef0-2a94-49e5-818e-8fb823ec5419")
+	)
+	(wire
+		(pts
+			(xy 107.95 43.815) (xy 107.95 36.195)
 		)
 		(stroke
 			(width 0)
@@ -1697,27 +2566,27 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 66.675) (xy 184.785 66.675)
+			(xy 188.595 46.355) (xy 188.595 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74b3977d-a209-415a-ab52-f6c5a42e9baa")
+		(uuid "71d30d9a-889b-4689-9c1b-91d0c86efef6")
 	)
 	(wire
 		(pts
-			(xy 186.69 97.155) (xy 186.69 86.995)
+			(xy 152.4 45.085) (xy 152.4 43.815)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c18eb7b-7a8c-4407-8376-eaaef794626d")
+		(uuid "7b2a1677-d452-4bf4-b650-18b1631cf63c")
 	)
 	(wire
 		(pts
-			(xy 141.605 68.58) (xy 141.605 66.675)
+			(xy 120.65 33.02) (xy 120.65 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1727,37 +2596,37 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 71.12) (xy 184.785 71.12)
+			(xy 188.595 37.465) (xy 188.595 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "869022f1-6bdd-4589-90fc-bf060a2a851d")
+		(uuid "881df700-71f8-4297-b0ae-1733d61bb6ef")
 	)
 	(wire
 		(pts
-			(xy 189.23 99.695) (xy 189.23 120.015)
+			(xy 152.4 83.82) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ec8dc87-dfa0-449b-9398-376b04c36a85")
+		(uuid "8d09709a-d816-4baa-aa18-6f00660f0074")
 	)
 	(wire
 		(pts
-			(xy 184.785 73.66) (xy 184.785 79.375)
+			(xy 219.71 52.07) (xy 223.52 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "978b701e-50f8-47cb-a57a-b5ed2031d77d")
+		(uuid "988d2856-2398-4b72-b202-de008dc3f794")
 	)
 	(wire
 		(pts
-			(xy 141.605 66.675) (xy 173.355 66.675)
+			(xy 120.65 31.115) (xy 152.4 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1767,17 +2636,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 79.375) (xy 173.355 79.375)
+			(xy 172.085 132.715) (xy 168.275 132.715)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad6449ca-d154-4bd4-a998-4821c04befa6")
+		(uuid "a484c783-b4f6-4a75-956b-577ec3f5618a")
 	)
 	(wire
 		(pts
-			(xy 173.355 86.995) (xy 173.355 89.535)
+			(xy 152.4 69.85) (xy 152.4 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1787,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 79.375) (xy 173.355 79.375)
+			(xy 120.65 43.815) (xy 152.4 43.815)
 		)
 		(stroke
 			(width 0)
@@ -1797,27 +2666,27 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 102.235) (xy 186.69 107.315)
+			(xy 214.63 44.45) (xy 222.25 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b94e0299-a9c3-4b5f-a78f-fd48e7c1dc1b")
+		(uuid "b6fb3357-117c-46ba-a751-b1d4ab887710")
 	)
 	(wire
 		(pts
-			(xy 190.5 73.66) (xy 184.785 73.66)
+			(xy 219.71 49.53) (xy 223.52 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bac3309f-6146-4507-bbf6-e3e041820846")
+		(uuid "c2eee16b-7694-49bd-b6fa-a1e062b8e93f")
 	)
 	(wire
 		(pts
-			(xy 95.25 74.295) (xy 113.665 74.295)
+			(xy 74.295 38.735) (xy 92.71 38.735)
 		)
 		(stroke
 			(width 0)
@@ -1827,7 +2696,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.605 99.695) (xy 173.355 99.695)
+			(xy 120.65 82.55) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1837,27 +2706,37 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 102.235) (xy 186.69 102.235)
+			(xy 222.25 44.45) (xy 223.52 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6974664-ab54-45a3-95ff-2a07ae12f21a")
+		(uuid "cb5bddc9-d850-4af6-9d1f-58c4f46d7b0d")
 	)
 	(wire
 		(pts
-			(xy 189.23 99.695) (xy 191.135 99.695)
+			(xy 214.63 55.88) (xy 214.63 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da2d365b-5e85-42fc-97cc-3fbefe789388")
+		(uuid "d5e774e3-4c0a-4677-81a6-286b23efd75c")
 	)
 	(wire
 		(pts
-			(xy 141.605 120.015) (xy 173.355 120.015)
+			(xy 151.765 139.065) (xy 151.765 137.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95141a0-efe9-435a-a033-f27fa66bfafd")
+	)
+	(wire
+		(pts
+			(xy 120.015 126.365) (xy 151.765 126.365)
 		)
 		(stroke
 			(width 0)
@@ -1867,17 +2746,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 71.12) (xy 184.785 66.675)
+			(xy 219.71 46.99) (xy 223.52 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dde88a81-bb47-441b-8e6d-7d7136047876")
+		(uuid "e1fdd0b8-83a9-40a9-901a-2e8c32a22178")
 	)
 	(wire
 		(pts
-			(xy 141.605 86.995) (xy 173.355 86.995)
+			(xy 120.65 69.85) (xy 152.4 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +2766,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 79.375) (xy 173.355 76.835)
+			(xy 152.4 43.815) (xy 152.4 41.275)
 		)
 		(stroke
 			(width 0)
@@ -1897,17 +2776,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 86.995) (xy 186.69 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f64b83cc-3a24-42a7-b594-4541fa232981")
-	)
-	(wire
-		(pts
-			(xy 95.25 94.615) (xy 113.665 94.615)
+			(xy 74.295 59.055) (xy 92.71 59.055)
 		)
 		(stroke
 			(width 0)
@@ -1917,7 +2786,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.905 92.075) (xy 128.905 112.395)
+			(xy 107.95 56.515) (xy 107.95 76.835)
 		)
 		(stroke
 			(width 0)
@@ -1927,7 +2796,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.905 112.395) (xy 126.365 112.395)
+			(xy 107.95 76.835) (xy 105.41 76.835)
 		)
 		(stroke
 			(width 0)
@@ -1935,8 +2804,8 @@
 		)
 		(uuid "fd31ec4a-19bf-46f6-976a-65852b52c3e5")
 	)
-	(label "K23GND"
-		(at 179.07 99.695 0)
+	(label "N_{EN}"
+		(at 219.71 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1944,32 +2813,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "069e839d-cee9-47be-9e5a-583f9be5c4b9")
+		(uuid "12a0166d-f9d8-4400-8a5f-8d0987c20688")
 	)
-	(label "K1PWR"
-		(at 177.8 66.675 0)
+	(label "N_{EN}"
+		(at 173.355 50.165 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "1dac5f8f-512f-4333-8aac-463c0f8fdf24")
-	)
-	(label "K3PWR"
-		(at 179.07 107.315 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ab197c1-30e7-4516-a531-9986539f7feb")
+		(uuid "22df9381-de6e-4523-98cc-73098d8b4de5")
 	)
 	(label "HV.N_{IN}"
-		(at 99.695 74.295 0)
+		(at 78.74 38.735 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1979,8 +2837,30 @@
 		)
 		(uuid "51fbcf73-5cc7-4883-b0eb-0c0cda0d57fc")
 	)
+	(label "L_{EN}"
+		(at 173.355 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "571515e7-c5f1-4c8c-ae57-f7f06d88c35b")
+	)
+	(label "L_{EN}"
+		(at 219.71 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57b3840d-b48b-4f66-a996-5118bcf9ebd7")
+	)
 	(label "HV.LS"
-		(at 128.905 102.235 90)
+		(at 107.95 66.675 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1990,19 +2870,8 @@
 		)
 		(uuid "727b1337-fd43-411c-bfec-6d27f975044d")
 	)
-	(label "K2PWR"
-		(at 179.07 86.995 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e5ed95e-d0a4-4165-8f62-136ace68a41b")
-	)
 	(label "HV.L_{IN2}"
-		(at 99.695 114.935 0)
+		(at 78.74 79.375 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2013,7 +2882,7 @@
 		(uuid "93b5e99a-023a-4e0e-b0a0-52943b215587")
 	)
 	(label "HV.L_{OUT}"
-		(at 99.695 94.615 0)
+		(at 78.74 59.055 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2023,8 +2892,30 @@
 		)
 		(uuid "96eae84d-c1fb-4703-94b6-d221de92dec2")
 	)
+	(label "SEL"
+		(at 172.085 132.715 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3e73585-84cd-46e7-b077-61aee4017470")
+	)
+	(label "SEL"
+		(at 219.71 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d28e63ce-6fea-41b0-9acf-b7ff54a2adc0")
+	)
 	(label "HV.L_{IN_{1}}"
-		(at 99.695 109.855 0)
+		(at 78.74 74.295 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2034,19 +2925,8 @@
 		)
 		(uuid "f797134b-a64c-4f53-81dc-682f0982a1e0")
 	)
-	(label "K1GND"
-		(at 177.8 79.375 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb72566c-ad45-485e-a3e9-ad4da62af409")
-	)
 	(label "HV.N_{OUT}"
-		(at 99.695 79.375 0)
+		(at 78.74 43.815 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2057,8 +2937,140 @@
 		(uuid "ffc5efd3-39b0-4ab7-b936-762935ea756c")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 222.25 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "004ecbe6-e42b-4f62-bf74-dd27c27cbbbb")
+		(property "Reference" "#PWR05"
+			(at 222.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73a7d754-c14c-4ad4-aeda-880b3ee318b7")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 188.595 37.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02139f21-f936-4782-8a2b-6fc9e6c48c9d")
+		(property "Reference" "#PWR07"
+			(at 188.595 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 188.595 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.595 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 188.595 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 188.595 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1086a730-8439-4260-aac4-8f9f1da820f7")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Koszalix_TabConnectors:TE-1-726388-2")
-		(at 95.25 109.855 180)
+		(at 74.295 74.295 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2066,7 +3078,7 @@
 		(dnp no)
 		(uuid "038e42e7-4af3-4f0d-bcac-7230fce9b086")
 		(property "Reference" "J4"
-			(at 91.567 108.204 0)
+			(at 70.612 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +3086,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 95.25 109.855 0)
+			(at 74.295 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +3096,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Connectors_Tab:TE-1-726388-2"
-			(at 95.25 109.855 0)
+			(at 74.295 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +3106,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726388%7FE3%7Fpdf%7FEnglish%7FENG_CD_726388_E3.pdf%7F1-726388-2"
-			(at 95.25 109.855 0)
+			(at 74.295 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +3116,7 @@
 			)
 		)
 		(property "Description" "Tab Connector 6.4mm"
-			(at 95.25 109.855 0)
+			(at 74.295 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +3125,7 @@
 			)
 		)
 		(property "MPN" "TE-1-726388-2"
-			(at 92.583 111.506 0)
+			(at 71.628 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +3133,7 @@
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
-			(at 95.25 109.855 0)
+			(at 74.295 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,17 +3155,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 196.215 99.695 0)
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 228.6 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "039a2f0e-fa40-4e42-9ef2-a2fc6db78f31")
-		(property "Reference" "J10"
-			(at 198.755 98.4249 0)
+		(uuid "096963c9-5fe4-4de6-b991-f6dd1202d990")
+		(property "Reference" "J5"
+			(at 231.775 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,8 +3173,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 198.755 100.9649 0)
+		(property "Value" "Conn_01x05"
+			(at 231.775 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2170,8 +3182,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 196.215 99.695 0)
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+			(at 228.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +3192,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.215 99.695 0)
+			(at 228.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,8 +3200,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 196.215 99.695 0)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 228.6 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,18 +3210,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "4ed9d2cd-2302-4129-87b2-f4eefa93eb9e")
+			(uuid "1adf08ae-938e-45fa-ae15-423878479ecb")
 		)
-		(pin "3"
-			(uuid "b8c766e0-6420-4f93-bbdd-bc4813ad46d7")
+		(pin "4"
+			(uuid "14560956-cc91-429b-8ea1-6b0e8a00dc46")
 		)
 		(pin "1"
-			(uuid "fcd67153-c61e-4c2f-9cc3-1dff44f0b914")
+			(uuid "e60ae95e-2238-4c26-90e2-bd5eb2973cf1")
+		)
+		(pin "5"
+			(uuid "e89dd009-bc4d-4e9e-a154-e210db8d7849")
+		)
+		(pin "3"
+			(uuid "370e07fc-da6a-40b1-ac5d-7f3157f0caa4")
 		)
 		(instances
 			(project "lineScope-RelayBoard"
 				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
-					(reference "J10")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2281,7 +3299,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Shottky_Diodes:LL103A")
-		(at 170.815 93.345 270)
+		(at 149.86 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2290,7 +3308,7 @@
 		(fields_autoplaced yes)
 		(uuid "14b69ae5-9ced-4c65-9273-59d2a57f55d5")
 		(property "Reference" "D2"
-			(at 175.895 91.7574 90)
+			(at 154.94 74.6124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +3317,7 @@
 			)
 		)
 		(property "Value" "LL103A"
-			(at 175.895 94.2974 90)
+			(at 154.94 77.1524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +3326,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 177.165 108.585 0)
+			(at 156.21 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +3336,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/4b83a5789d32f39934640cef179344a8/ll103a.pdf"
-			(at 177.165 108.585 0)
+			(at 156.21 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +3346,7 @@
 			)
 		)
 		(property "Description" "Schotky diode"
-			(at 170.815 93.345 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +3355,7 @@
 			)
 		)
 		(property "Manufacturer" "Diotec Semiconductor"
-			(at 177.165 108.585 0)
+			(at 156.21 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +3365,7 @@
 			)
 		)
 		(property "MPN" "LL103A"
-			(at 174.625 109.855 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +3375,7 @@
 			)
 		)
 		(property "Peak reverse voltage" "40V"
-			(at 170.815 93.345 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +3385,7 @@
 			)
 		)
 		(property "Power dissipation" "400mW"
-			(at 174.625 109.855 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +3395,7 @@
 			)
 		)
 		(property "Max. average forward current" "350mA"
-			(at 174.625 109.855 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +3405,7 @@
 			)
 		)
 		(property "unction temperature" "-55 to +125°C"
-			(at 177.165 108.585 0)
+			(at 156.21 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +3415,7 @@
 			)
 		)
 		(property " junction capacitance" "50pF"
-			(at 170.815 93.345 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +3425,7 @@
 			)
 		)
 		(property "Reverse recovery time" "10ns"
-			(at 170.815 93.345 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +3435,7 @@
 			)
 		)
 		(property "Leakage current" "5uA"
-			(at 170.815 93.345 0)
+			(at 149.86 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,8 +3460,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
+		(at 165.1 50.165 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15dd03a1-6ee6-4860-8f92-a836232d4bf1")
+		(property "Reference" "R1"
+			(at 165.1 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 165.1 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 163.83 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
+			(at 163.83 -6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor"
+			(at 165.1 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 158.75 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710k"
+			(at 161.29 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum Working Voltage " "50 V"
+			(at 171.45 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum Overload Voltage" "100 V"
+			(at 176.53 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric Withstanding Voltage " "100 V"
+			(at 173.99 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "200ppm"
+			(at 168.91 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "–55 °C to +155 °C"
+			(at 166.37 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 168.91 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5516edf0-b8d0-403e-a738-3bbf974ec392")
+		)
+		(pin "2"
+			(uuid "ac1ffabe-af42-41e6-ac6d-c7e5b45b22e0")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Koszalix_Relays:RM85-1011-35-1012")
-		(at 113.665 94.615 90)
+		(at 92.71 59.055 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2451,7 +3619,7 @@
 		(dnp no)
 		(uuid "181bd0e1-7790-4f22-b13f-dfaff139b8d3")
 		(property "Reference" "K2"
-			(at 120.142 87.884 90)
+			(at 99.187 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +3627,7 @@
 			)
 		)
 		(property "Value" "RM85-1011-35-1012"
-			(at 125.603 72.771 0)
+			(at 104.648 37.211 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +3637,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Relays:RM85_Socket"
-			(at 125.603 72.771 0)
+			(at 104.648 37.211 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +3647,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.relpol.pl/Produkty/Przekazniki-miniaturowe/content/download/13766/168091/file/RM84.pdf"
-			(at 125.603 72.771 0)
+			(at 104.648 37.211 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +3657,7 @@
 			)
 		)
 		(property "Description" "12V coil relay"
-			(at 113.665 94.615 0)
+			(at 92.71 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +3667,7 @@
 			)
 		)
 		(property "Manufacturer" "RELPOL"
-			(at 125.603 72.771 0)
+			(at 104.648 37.211 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +3677,7 @@
 			)
 		)
 		(property "MPN" "RM85-1011-35-1012"
-			(at 120.142 87.122 90)
+			(at 99.187 51.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,8 +3719,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
+		(at 164.465 132.715 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b93234a-0dd7-46af-9333-dfc8042e12dd")
+		(property "Reference" "R3"
+			(at 164.465 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 164.465 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 163.195 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
+			(at 163.195 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor"
+			(at 164.465 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 158.115 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710k"
+			(at 160.655 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum Working Voltage " "50 V"
+			(at 170.815 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum Overload Voltage" "100 V"
+			(at 175.895 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric Withstanding Voltage " "100 V"
+			(at 173.355 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "200ppm"
+			(at 168.275 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "–55 °C to +155 °C"
+			(at 165.735 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 168.275 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "589d0a2d-13f1-4d65-aa9b-1130bb402a38")
+		)
+		(pin "2"
+			(uuid "b1b2b2fe-dfba-43dd-869e-11b25fa34aef")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Koszalix_Relays:RM85-1011-35-1012_Socket")
-		(at 141.605 68.58 0)
+		(at 120.65 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2561,7 +3879,7 @@
 		(fields_autoplaced yes)
 		(uuid "22035593-c711-4309-8a37-6f942ebd5cc2")
 		(property "Reference" "K1"
-			(at 146.685 70.5607 0)
+			(at 125.73 35.0007 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +3888,7 @@
 			)
 		)
 		(property "Value" "RM85-1011-35-1012"
-			(at 163.449 80.518 0)
+			(at 142.494 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +3898,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Relays:RM85_Socket"
-			(at 163.449 80.518 0)
+			(at 142.494 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +3908,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.relpol.pl/Produkty/Gniazda-i-akcesoria/Gniazda-do-przekaznikow-miniaturowych/content/download/60076/973976/file/Gniazda"
-			(at 163.449 80.518 0)
+			(at 142.494 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,7 +3918,7 @@
 			)
 		)
 		(property "Description" "RM85 relay; 12V Coil; with socket"
-			(at 141.605 68.58 0)
+			(at 120.65 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +3928,7 @@
 			)
 		)
 		(property "Manufacturer" "Relpol"
-			(at 163.449 80.518 0)
+			(at 142.494 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +3938,7 @@
 			)
 		)
 		(property "MPN1" "EC50"
-			(at 146.685 73.1007 0)
+			(at 125.73 37.5407 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +3947,7 @@
 			)
 		)
 		(property "MPN2" "RM85-1011-35-1012"
-			(at 146.685 75.6407 0)
+			(at 125.73 40.0807 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +3990,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_TabConnectors:TE-1-726388-2")
-		(at 95.25 114.935 180)
+		(at 74.295 79.375 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2680,7 +3998,7 @@
 		(dnp no)
 		(uuid "262f68e7-becb-4a7e-959b-bb3148885ca6")
 		(property "Reference" "J6"
-			(at 91.567 113.284 0)
+			(at 70.612 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +4006,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 95.25 114.935 0)
+			(at 74.295 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +4016,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Connectors_Tab:TE-1-726388-2"
-			(at 95.25 114.935 0)
+			(at 74.295 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +4026,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726388%7FE3%7Fpdf%7FEnglish%7FENG_CD_726388_E3.pdf%7F1-726388-2"
-			(at 95.25 114.935 0)
+			(at 74.295 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +4036,7 @@
 			)
 		)
 		(property "Description" "Tab Connector 6.4mm"
-			(at 95.25 114.935 0)
+			(at 74.295 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +4045,7 @@
 			)
 		)
 		(property "MPN" "TE-1-726388-2"
-			(at 92.583 116.586 0)
+			(at 71.628 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +4053,7 @@
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
-			(at 95.25 114.935 0)
+			(at 74.295 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +4076,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Shottky_Diodes:LL103A")
-		(at 170.815 73.025 270)
+		(at 149.86 37.465 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2767,7 +4085,7 @@
 		(fields_autoplaced yes)
 		(uuid "3065d9e8-863a-42b1-83e0-04221fdc09df")
 		(property "Reference" "D1"
-			(at 175.895 71.4374 90)
+			(at 154.94 35.8774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +4094,7 @@
 			)
 		)
 		(property "Value" "LL103A"
-			(at 175.895 73.9774 90)
+			(at 154.94 38.4174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +4103,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 177.165 88.265 0)
+			(at 156.21 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +4113,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/4b83a5789d32f39934640cef179344a8/ll103a.pdf"
-			(at 177.165 88.265 0)
+			(at 156.21 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +4123,7 @@
 			)
 		)
 		(property "Description" "Schotky diode"
-			(at 170.815 73.025 0)
+			(at 149.86 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +4132,7 @@
 			)
 		)
 		(property "Manufacturer" "Diotec Semiconductor"
-			(at 177.165 88.265 0)
+			(at 156.21 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +4142,7 @@
 			)
 		)
 		(property "MPN" "LL103A"
-			(at 174.625 89.535 0)
+			(at 153.67 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +4152,7 @@
 			)
 		)
 		(property "Peak reverse voltage" "40V"
-			(at 170.815 73.025 0)
+			(at 149.86 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +4162,7 @@
 			)
 		)
 		(property "Power dissipation" "400mW"
-			(at 174.625 89.535 0)
+			(at 153.67 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +4172,7 @@
 			)
 		)
 		(property "Max. average forward current" "350mA"
-			(at 174.625 89.535 0)
+			(at 153.67 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +4182,7 @@
 			)
 		)
 		(property "unction temperature" "-55 to +125°C"
-			(at 177.165 88.265 0)
+			(at 156.21 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +4192,7 @@
 			)
 		)
 		(property " junction capacitance" "50pF"
-			(at 170.815 73.025 0)
+			(at 149.86 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +4202,7 @@
 			)
 		)
 		(property "Reverse recovery time" "10ns"
-			(at 170.815 73.025 0)
+			(at 149.86 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +4212,7 @@
 			)
 		)
 		(property "Leakage current" "5uA"
-			(at 170.815 73.025 0)
+			(at 149.86 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,8 +4237,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Koszalix_Capacitors_Ceramic_Samsung_CL05A:CAP_100n_0402")
+		(at 188.595 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4113dce6-4e86-4c09-98a4-215db2d581f0")
+		(property "Reference" "C1"
+			(at 191.77 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 191.77 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 193.675 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/4a42202b32dab16128fe107dd69598cc/samsung-chip-cap.pdf"
+			(at 193.675 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 188.595 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A104KP5NNNC"
+			(at 193.675 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 193.675 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "452abb68-a568-4f07-b31c-cf342724f85e")
+		)
+		(pin "2"
+			(uuid "8071604b-9fa2-4f16-8693-4d0702ec8f65")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Koszalix_TabConnectors:TE-1-726388-2")
-		(at 95.25 94.615 180)
+		(at 74.295 59.055 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2928,7 +4338,7 @@
 		(dnp no)
 		(uuid "41393425-fd70-4954-a0d0-bf903362d17b")
 		(property "Reference" "J2"
-			(at 91.567 92.964 0)
+			(at 70.612 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +4346,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 95.25 94.615 0)
+			(at 74.295 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +4356,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Connectors_Tab:TE-1-726388-2"
-			(at 95.25 94.615 0)
+			(at 74.295 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +4366,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726388%7FE3%7Fpdf%7FEnglish%7FENG_CD_726388_E3.pdf%7F1-726388-2"
-			(at 95.25 94.615 0)
+			(at 74.295 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +4376,7 @@
 			)
 		)
 		(property "Description" "Tab Connector 6.4mm"
-			(at 95.25 94.615 0)
+			(at 74.295 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +4385,7 @@
 			)
 		)
 		(property "MPN" "TE-1-726388-2"
-			(at 92.583 96.266 0)
+			(at 71.628 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +4393,7 @@
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
-			(at 95.25 94.615 0)
+			(at 74.295 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,8 +4415,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 152.4 29.845 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54bb7aa5-d945-4c50-b88f-42e2043f5335")
+		(property "Reference" "#PWR04"
+			(at 152.4 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 152.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 152.4 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1cdb7ec-f85e-4efb-b6c4-4d1fad25a520")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Koszalix_Relays:RM85-1011-35-1012")
-		(at 113.665 114.935 90)
+		(at 92.71 79.375 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3014,7 +4490,7 @@
 		(dnp no)
 		(uuid "59079d1d-ddb9-4010-ae66-fcb004dd97e5")
 		(property "Reference" "K3"
-			(at 120.396 108.458 90)
+			(at 99.441 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +4498,7 @@
 			)
 		)
 		(property "Value" "RM85-1011-35-1012"
-			(at 125.603 93.091 0)
+			(at 104.648 57.531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +4508,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Relays:RM85_Socket"
-			(at 125.603 93.091 0)
+			(at 104.648 57.531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +4518,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.relpol.pl/Produkty/Przekazniki-miniaturowe/content/download/13766/168091/file/RM84.pdf"
-			(at 125.603 93.091 0)
+			(at 104.648 57.531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +4528,7 @@
 			)
 		)
 		(property "Description" "12V coil relay"
-			(at 113.665 114.935 0)
+			(at 92.71 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +4538,7 @@
 			)
 		)
 		(property "Manufacturer" "RELPOL"
-			(at 125.603 93.091 0)
+			(at 104.648 57.531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +4548,7 @@
 			)
 		)
 		(property "MPN" "RM85-1011-35-1012"
-			(at 120.142 107.188 90)
+			(at 99.187 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,8 +4590,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 152.4 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5abb50e4-9253-4134-bb3e-14de908f65f8")
+		(property "Reference" "#PWR01"
+			(at 152.4 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb3c4631-fe78-4687-82aa-0876da4f6cba")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 214.63 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61551f44-c398-4dce-bc31-16fe597cee1f")
+		(property "Reference" "#FLG01"
+			(at 214.63 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 214.63 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 214.63 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56af9f0e-49e1-487e-b41c-0a92994808c4")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Koszalix_Shottky_Diodes:LL103A")
-		(at 170.815 113.665 270)
+		(at 149.225 120.015 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3124,7 +4731,7 @@
 		(fields_autoplaced yes)
 		(uuid "68794944-8558-439c-98d4-c2fd911c462f")
 		(property "Reference" "D3"
-			(at 175.895 112.0774 90)
+			(at 154.305 118.4274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +4740,7 @@
 			)
 		)
 		(property "Value" "LL103A"
-			(at 175.895 114.6174 90)
+			(at 154.305 120.9674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +4749,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 177.165 128.905 0)
+			(at 155.575 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +4759,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/4b83a5789d32f39934640cef179344a8/ll103a.pdf"
-			(at 177.165 128.905 0)
+			(at 155.575 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +4769,7 @@
 			)
 		)
 		(property "Description" "Schotky diode"
-			(at 170.815 113.665 0)
+			(at 149.225 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +4778,7 @@
 			)
 		)
 		(property "Manufacturer" "Diotec Semiconductor"
-			(at 177.165 128.905 0)
+			(at 155.575 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +4788,7 @@
 			)
 		)
 		(property "MPN" "LL103A"
-			(at 174.625 130.175 0)
+			(at 153.035 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +4798,7 @@
 			)
 		)
 		(property "Peak reverse voltage" "40V"
-			(at 170.815 113.665 0)
+			(at 149.225 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +4808,7 @@
 			)
 		)
 		(property "Power dissipation" "400mW"
-			(at 174.625 130.175 0)
+			(at 153.035 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +4818,7 @@
 			)
 		)
 		(property "Max. average forward current" "350mA"
-			(at 174.625 130.175 0)
+			(at 153.035 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,7 +4828,7 @@
 			)
 		)
 		(property "unction temperature" "-55 to +125°C"
-			(at 177.165 128.905 0)
+			(at 155.575 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +4838,7 @@
 			)
 		)
 		(property " junction capacitance" "50pF"
-			(at 170.815 113.665 0)
+			(at 149.225 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +4848,7 @@
 			)
 		)
 		(property "Reverse recovery time" "10ns"
-			(at 170.815 113.665 0)
+			(at 149.225 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +4858,7 @@
 			)
 		)
 		(property "Leakage current" "5uA"
-			(at 170.815 113.665 0)
+			(at 149.225 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +4948,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_TabConnectors:TE-1-726388-2")
-		(at 95.25 74.295 180)
+		(at 74.295 38.735 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3349,7 +4956,7 @@
 		(dnp no)
 		(uuid "743aed35-cb40-44a7-9127-94348440d4a4")
 		(property "Reference" "J1"
-			(at 91.567 72.644 0)
+			(at 70.612 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +4964,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 95.25 74.295 0)
+			(at 74.295 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +4974,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Connectors_Tab:TE-1-726388-2"
-			(at 95.25 74.295 0)
+			(at 74.295 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +4984,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726388%7FE3%7Fpdf%7FEnglish%7FENG_CD_726388_E3.pdf%7F1-726388-2"
-			(at 95.25 74.295 0)
+			(at 74.295 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +4994,7 @@
 			)
 		)
 		(property "Description" "Tab Connector 6.4mm"
-			(at 95.25 74.295 0)
+			(at 74.295 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +5003,7 @@
 			)
 		)
 		(property "MPN" "TE-1-726388-2"
-			(at 92.583 75.946 0)
+			(at 71.628 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +5011,7 @@
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
-			(at 95.25 74.295 0)
+			(at 74.295 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,8 +5033,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 151.765 112.395 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95329247-51b0-41d5-9f44-b37aa923fbca")
+		(property "Reference" "#PWR010"
+			(at 151.765 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 151.765 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.765 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.765 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 151.765 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0373ba4-e9ac-478c-a6e5-9fa3c919bc9c")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.765 139.065 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "974e5e90-a6f7-4450-8c39-bc81c3037a14")
+		(property "Reference" "#PWR03"
+			(at 151.765 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.765 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.765 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.765 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.765 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84e1dc2d-b99b-4386-8b77-7975cd8d14da")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Koszalix_Relays:RM85-1011-35-1012")
-		(at 113.665 74.295 90)
+		(at 92.71 38.735 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3435,7 +5174,7 @@
 		(dnp no)
 		(uuid "99846fa3-f20b-437e-a7d1-3f15b7e052ef")
 		(property "Reference" "K1"
-			(at 120.142 67.818 90)
+			(at 99.187 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +5182,7 @@
 			)
 		)
 		(property "Value" "RM85-1011-35-1012"
-			(at 125.603 52.451 0)
+			(at 104.648 16.891 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +5192,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Relays:RM85_Socket"
-			(at 125.603 52.451 0)
+			(at 104.648 16.891 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +5202,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.relpol.pl/Produkty/Przekazniki-miniaturowe/content/download/13766/168091/file/RM84.pdf"
-			(at 125.603 52.451 0)
+			(at 104.648 16.891 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,7 +5212,7 @@
 			)
 		)
 		(property "Description" "12V coil relay"
-			(at 113.665 74.295 0)
+			(at 92.71 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,7 +5222,7 @@
 			)
 		)
 		(property "Manufacturer" "RELPOL"
-			(at 125.603 52.451 0)
+			(at 104.648 16.891 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +5232,7 @@
 			)
 		)
 		(property "MPN" "RM85-1011-35-1012"
-			(at 120.142 66.802 90)
+			(at 99.187 31.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +5275,7 @@
 	)
 	(symbol
 		(lib_id "Koszalix_Relays:RM85-1011-35-1012_Socket")
-		(at 141.605 88.9 0)
+		(at 120.65 71.755 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3545,7 +5284,7 @@
 		(fields_autoplaced yes)
 		(uuid "acb22b02-381d-4d5b-956e-8e68dc1d7a0e")
 		(property "Reference" "K2"
-			(at 146.685 90.8807 0)
+			(at 125.73 73.7357 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +5293,7 @@
 			)
 		)
 		(property "Value" "RM85-1011-35-1012"
-			(at 163.449 100.838 0)
+			(at 142.494 83.693 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +5303,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Relays:RM85_Socket"
-			(at 163.449 100.838 0)
+			(at 142.494 83.693 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +5313,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.relpol.pl/Produkty/Gniazda-i-akcesoria/Gniazda-do-przekaznikow-miniaturowych/content/download/60076/973976/file/Gniazda"
-			(at 163.449 100.838 0)
+			(at 142.494 83.693 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +5323,7 @@
 			)
 		)
 		(property "Description" "RM85 relay; 12V Coil; with socket"
-			(at 141.605 88.9 0)
+			(at 120.65 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +5333,7 @@
 			)
 		)
 		(property "Manufacturer" "Relpol"
-			(at 163.449 100.838 0)
+			(at 142.494 83.693 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +5343,7 @@
 			)
 		)
 		(property "MPN1" "EC50"
-			(at 146.685 93.4207 0)
+			(at 125.73 76.2757 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,12 +5352,22 @@
 			)
 		)
 		(property "MPN2" "RM85-1011-35-1012"
-			(at 146.685 95.9607 0)
+			(at 125.73 78.8157 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "RM85-1011-35-1012"
+			(at 142.494 83.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "11"
@@ -3719,18 +5468,159 @@
 		)
 	)
 	(symbol
-		(lib_id "Koszalix_Relays:RM85-1011-35-1012_Socket")
-		(at 141.605 118.11 0)
-		(mirror x)
+		(lib_id "Transistor_BJT:BC847")
+		(at 154.94 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "b4551c49-58e7-4f77-92ed-18c0f0193f3e")
+		(property "Reference" "Q2"
+			(at 149.225 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 149.225 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 149.86 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db32c799-99c0-44c4-a44f-0772406f099d")
+		)
+		(pin "3"
+			(uuid "572d29d2-0383-43c4-b7ce-23507d62029f")
+		)
+		(pin "1"
+			(uuid "5d907bb3-6c46-4eb7-88ea-2ad7390169ca")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 152.4 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5a5a4e6-c00d-49e2-817d-590383a11bc0")
+		(property "Reference" "#PWR09"
+			(at 152.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 152.4 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffa45266-32db-4c49-80eb-92d2e7f4e00e")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Koszalix_Relays:RM85-1011-35-1012_Socket")
+		(at 120.015 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "b8cd990a-6cde-4eba-a038-bcf0dfc9370a")
 		(property "Reference" "K3"
-			(at 146.685 111.049 0)
+			(at 125.095 122.631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +5629,7 @@
 			)
 		)
 		(property "Value" "RM85-1011-35-1012"
-			(at 163.449 106.172 0)
+			(at 141.859 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +5639,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Relays:RM85_Socket"
-			(at 163.449 106.172 0)
+			(at 141.859 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +5649,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.relpol.pl/Produkty/Gniazda-i-akcesoria/Gniazda-do-przekaznikow-miniaturowych/content/download/60076/973976/file/Gniazda"
-			(at 163.449 106.172 0)
+			(at 141.859 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +5659,7 @@
 			)
 		)
 		(property "Description" "RM85 relay; 12V Coil; with socket"
-			(at 141.605 118.11 0)
+			(at 120.015 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,7 +5669,7 @@
 			)
 		)
 		(property "Manufacturer" "Relpol"
-			(at 163.449 106.172 0)
+			(at 141.859 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +5679,7 @@
 			)
 		)
 		(property "MPN1" "EC50"
-			(at 146.685 113.589 0)
+			(at 125.095 120.091 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,12 +5688,22 @@
 			)
 		)
 		(property "MPN2" "RM85-1011-35-1012"
-			(at 146.685 116.129 0)
+			(at 125.095 117.551 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "RM85-1011-35-1012"
+			(at 141.859 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
 		(pin "11"
@@ -3834,6 +5734,508 @@
 			(project "lineScope-RelayBoard"
 				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
 					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 154.305 132.715 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c07fc93f-3b43-4338-bf83-b6e55b9a5f96")
+		(property "Reference" "Q3"
+			(at 148.59 131.4449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 148.59 133.9849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 149.225 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 154.305 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 154.305 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dd6ef98-1e7a-4d4d-b560-a3bd92cc0a01")
+		)
+		(pin "3"
+			(uuid "8ee4d422-533d-4ebd-9acc-d063457cddf0")
+		)
+		(pin "1"
+			(uuid "6e63ddaf-58c2-4d26-86c9-9b1b5fbfb780")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 222.25 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4f37429-c189-400a-80da-704a5c9c8e10")
+		(property "Reference" "#PWR06"
+			(at 222.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 222.25 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "502cb27f-8edd-4106-b59e-b15b790e016c")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 154.94 50.165 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce6f9885-2443-4a06-a3b1-806701fcdf0f")
+		(property "Reference" "Q1"
+			(at 149.225 48.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 149.225 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 154.94 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 154.94 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e51b31fa-b269-4f10-9623-494d711e5567")
+		)
+		(pin "3"
+			(uuid "1aaaa893-c503-40fc-8a3d-b60ddd1de5f1")
+		)
+		(pin "1"
+			(uuid "92139479-f9e6-4f5c-b5f8-ab3351bd59fe")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 214.63 55.88 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d189be15-280b-4788-ac5d-9668683710ac")
+		(property "Reference" "#FLG02"
+			(at 214.63 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 214.63 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8af5dd0-c31b-4c86-91fc-1330013abafa")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d36b6b3d-7537-4601-ba46-dd66ab799eea")
+		(property "Reference" "#PWR02"
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5a76ce6-8e73-45e2-aa10-cd8aa775ac47")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Koszalix_Resistors_Yageo_RC0603:RES_10k_0603")
+		(at 165.1 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8079416-4d2d-4474-9c89-0a657d66bab0")
+		(property "Reference" "R2"
+			(at 165.1 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 165.1 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 163.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
+			(at 163.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 158.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710k"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum Working Voltage " "50 V"
+			(at 171.45 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maximum Overload Voltage" "100 V"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric Withstanding Voltage " "100 V"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "200ppm"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "–55 °C to +155 °C"
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0341a67a-f463-44d8-914c-24b296f155f7")
+		)
+		(pin "2"
+			(uuid "b0020e15-a8aa-4a93-abf3-29ce05fb6977")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3904,78 +6306,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 195.58 73.66 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4a84f89-2af7-406f-a655-36c35112abb1")
-		(property "Reference" "J11"
-			(at 198.12 73.6601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 198.12 71.1201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c9d59c5-b674-4a3b-97e4-8eacd54ad7a9")
-		)
-		(pin "1"
-			(uuid "a4eb612d-8d71-4287-9313-533c6fbb33cf")
-		)
-		(instances
-			(project "lineScope-RelayBoard"
-				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Koszalix_TabConnectors:TE-1-726388-2")
-		(at 95.25 79.375 180)
+		(at 74.295 43.815 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3983,7 +6315,7 @@
 		(dnp no)
 		(uuid "f500db58-c079-4d40-8481-f3c248861ef6")
 		(property "Reference" "J3"
-			(at 91.567 77.724 0)
+			(at 70.612 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +6323,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 95.25 79.375 0)
+			(at 74.295 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +6333,7 @@
 			)
 		)
 		(property "Footprint" "Koszalix_Connectors_Tab:TE-1-726388-2"
-			(at 95.25 79.375 0)
+			(at 74.295 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +6343,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726388%7FE3%7Fpdf%7FEnglish%7FENG_CD_726388_E3.pdf%7F1-726388-2"
-			(at 95.25 79.375 0)
+			(at 74.295 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +6353,7 @@
 			)
 		)
 		(property "Description" "Tab Connector 6.4mm"
-			(at 95.25 79.375 0)
+			(at 74.295 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +6362,7 @@
 			)
 		)
 		(property "MPN" "TE-1-726388-2"
-			(at 92.583 81.026 0)
+			(at 71.628 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +6370,7 @@
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
-			(at 95.25 79.375 0)
+			(at 74.295 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,6 +6386,72 @@
 			(project "lineScope-RelayBoard"
 				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 188.595 46.355 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7b88235-a5c8-4f51-b736-20a08ee6f443")
+		(property "Reference" "#PWR08"
+			(at 188.595 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 188.595 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.595 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 188.595 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 188.595 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31fdbaa2-2f43-4b90-bd55-95ff241a58b8")
+		)
+		(instances
+			(project "lineScope-RelayBoard"
+				(path "/25d219df-5a29-4a0e-a848-d0fb6e698e36"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
